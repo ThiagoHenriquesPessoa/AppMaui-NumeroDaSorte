@@ -2,8 +2,8 @@
 <ContentPage
     x:Class="AppMaui_NumeroDaSorte.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="MainPage">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
     <ScrollView HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <VerticalStackLayout>
             <Image
@@ -12,28 +12,34 @@
                 WidthRequest="74" />
 
             <Label
+                x:Name="lblNumeroSorte01"
                 Margin="0,30,0,30"
                 HorizontalOptions="Center"
-                IsVisible="False"
+                IsVisible="True"
                 Text="Número da sorte"
                 TextColor="#00AB37"
                 VerticalOptions="Center" />
 
             <Label
+                x:Name="lblNumeroSorte02"
                 Margin="0,30,0,30"
                 HorizontalOptions="Center"
-                IsVisible="True"
+                IsVisible="False"
                 Text="Número da sorte é:"
                 VerticalOptions="Center" />
+
             <HorizontalStackLayout
+                x:Name="hslNumero"
                 Margin="0,30"
                 HorizontalOptions="Center"
+                IsVisible="False"
                 Spacing="5">
                 <Border
                     Padding="10,5"
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero01"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -43,6 +49,7 @@
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero02"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -52,6 +59,7 @@
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero03"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -61,6 +69,7 @@
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero04"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -70,6 +79,7 @@
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero05"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -79,6 +89,7 @@
                     Stroke="#00AB37"
                     StrokeShape="RoundRectangle 9">
                     <Label
+                        x:Name="Numero06"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -86,16 +97,18 @@
             </HorizontalStackLayout>
 
             <Label
+                x:Name="lblBoaSorte"
                 Margin="0,30,0,0"
                 HorizontalOptions="Center"
-                IsVisible="True"
+                IsVisible="False"
                 Text="Boa sorte"
                 VerticalOptions="Center" />
 
             <Button
                 Margin="0,50,0,0"
                 HorizontalOptions="Center"
-                Text="Gerar número da sorte." />
+                Text="Gerar número da sorte." 
+                Clicked="btnGeraNumeroSorte_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
