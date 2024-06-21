@@ -28,31 +28,61 @@
             <HorizontalStackLayout
                 Margin="0,30"
                 HorizontalOptions="Center"
-                Spacing="10">
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
+                Spacing="5">
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 9">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
             </HorizontalStackLayout>
 
             <Label
