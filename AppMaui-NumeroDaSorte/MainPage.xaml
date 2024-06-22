@@ -30,7 +30,7 @@
 
             <HorizontalStackLayout
                 x:Name="hslNumero"
-                Margin="0,30"
+                Margin="0,20"
                 HorizontalOptions="Center"
                 IsVisible="False"
                 Spacing="5">
