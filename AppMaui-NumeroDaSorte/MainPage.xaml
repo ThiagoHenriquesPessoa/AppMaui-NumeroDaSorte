@@ -105,7 +105,7 @@
                 VerticalOptions="Center" />
 
             <Button
-                Margin="0,50,0,0"
+                Margin="0,50,0,50"
                 HorizontalOptions="Center"
                 Text="Gerar número da sorte." 
                 Clicked="btnGeraNumeroSorte_Clicked"/>
